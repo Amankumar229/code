@@ -11,7 +11,6 @@ parent_dir = r"C:\Users\aman.kumar.ext\Aman_senvion"
 path = os.path.join(parent_dir, directory)
   
 # Create the directory
-# 'Nikhil'
 try:
     os.makedirs(path, exist_ok = True)
     print("Directory '%s' created successfully" % directory)
